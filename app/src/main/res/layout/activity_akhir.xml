@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".akhir">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tl2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/balek"
+            android:onClick="ab" />
+
+
+        <ImageView
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_155sdp"
+            android:background="@drawable/logo" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/li"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@+id/tl2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:gravity="center"
+        android:text="DATA"
+        android:textColor="@color/coklat"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:id="@+id/lp"
+        android:layout_width="@dimen/_350sdp"
+        android:layout_height="@dimen/_380sdp"
+        android:layout_below="@+id/li"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_55sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@drawable/buttonn">
+
+        <TextView
+            android:id="@+id/mtrr"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_328sdp"
+            android:text="NAMA        :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_140sdp"
+        android:layout_marginEnd="@dimen/_80sdp"
+        android:background="@drawable/ppp" />
+
+    <TextView
+        android:id="@+id/mtrrr"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_below="@+id/li"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:text="DESKRIPSI :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/motRRR"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_below="@+id/li"
+        android:layout_marginStart="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_185sdp"
+        android:text="Di Indonesia, kentang (Solanum tuberosum L.) pertama kali ditemukan pada tahun 1794 di daerah Cisarua, Cimahi, Jawa Barat. Jenis kentang yang di tanam di Cisarua berasal dari Amerika Serikat, yang dibawa oleh orang–orang Eropa. Varietas kentang yang pertama kali didatangkan ke Indonesia adalah Eigenhiemer."
+        android:textSize="@dimen/_11ssp" />
+
+    <TextView
+        android:id="@+id/motor"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_below="@+id/li"
+        android:layout_marginStart="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_350sdp"
+        android:text="RP.15,000" />
+
+
+    <TextView
+        android:id="@+id/hgr"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_below="@+id/li"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_345sdp"
+        android:text="HARGA      :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_below="@+id/li"
+        android:layout_marginStart="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_390sdp"
+        android:text="KENTANG" />
+
+
+    <Button
+        android:id="@+id/simpan"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_230sdp"
+        android:layout_marginTop="@dimen/_550sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@drawable/buttonn"
+        android:text="PESAN"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp" />
+
+
+</RelativeLayout>

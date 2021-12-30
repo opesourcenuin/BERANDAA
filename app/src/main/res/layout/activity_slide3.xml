@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slide3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:gravity="center"
+        android:text="Sejarah Kopi Pagaralam"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/gb"
+        android:layout_width="380dp"
+        android:layout_height="240dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="10dp"
+
+        android:background="@drawable/slide3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_below="@+id/gb"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="Kopi Besemah atau juga dikenal sebagai kopi Pagar Alam adalah sebutan untuk varietas kopi yang berasal dari Besemah, Kota Pagar Alam, Sumatra Selatan. Kebanyakan kopi yang ditanam di perkebunan Basemah adalah kopi robusta. Perkebunan ini terpusat di kawasan dataran tinggi sekitar lereng Gunung Dempo."/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttonn"
+        android:text="MULAI"
+        android:onClick="mulai"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slide2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Sejarah Kopi Indonesia"
+        android:textSize="35dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/gb"
+        android:layout_width="402dp"
+        android:layout_height="198dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+
+        android:background="@drawable/slide2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_below="@+id/gb"
+        android:gravity="center"
+        android:text="MASUKNYA kopi ke nusantara tak lepas dari peran kolonialisme Belanda. Sejarah penyebaran kopi dimulai pada 1696 oleh Belanda. Pada masa itu Belanda membawa bibit kopi pertama dari Malabar, India, ke Pulau Jawa. ... Kemudian pada 1706 hasil tanaman kopi pertama di Pulau Jawa dikirim ke Kebun Raya Amsterdam untuk diteliti."
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttonn"
+        android:text="LANJUT"
+        android:onClick="lanjut"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        />
+
+
+</RelativeLayout>
